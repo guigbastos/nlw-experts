@@ -1,96 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a palavra-chave usada para declarar uma variável em JavaScript?",
-      respostas: [
-        "var",
-        "let",
-        "const",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Atribuição",
-        "Igualdade estrita",
-        "Igualdade solta",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como você adiciona um comentário de uma linha em JavaScript?",
-      respostas: [
-        "//",
-        "/*",
-        "#",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a maneira correta de escrever uma função em JavaScript?",
-      respostas: [
-        "function = minhaFuncao() {}",
-        "let minhaFuncao = function() {}",
-        "function minhaFuncao() {}",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Documento de Objeto Móvel",
-        "Distribuição de Objetos Móveis",
-        "Modelo de Objeto do Documento",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que o método 'querySelector()' faz em JavaScript?",
-      respostas: [
-        "Seleciona um elemento pelo seu ID",
-        "Seleciona um elemento pelo nome da classe",
-        "Seleciona um elemento pelo tipo de tag",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a finalidade do método 'parseInt()' em JavaScript?",
-      respostas: [
-        "Converter uma string para um número inteiro",
-        "Arredondar um número para o inteiro mais próximo",
-        "Converter um número para uma string",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o operador '&&' representa em JavaScript?",
-      respostas: [
-        "OU lógico",
-        "E lógico",
-        "Negação lógica",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre '==' e '===' em JavaScript?",
-      respostas: [
-        "Nenhuma, ambos comparam valores de forma estrita",
-        "O primeiro compara apenas valores, o segundo compara valores e tipos",
-        "O primeiro compara valores e tipos, o segundo compara apenas valores",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma closure em JavaScript?",
-      respostas: [
-        "Uma função que retorna um valor",
-        "Um objeto que armazena dados",
-        "Uma função que tem acesso às variáveis de seu escopo externo",
-      ],
-      correta: 2
-    },
-  ];
-  
+  {
+    pergunta: "O que é Psicologia?",
+    respostas: [
+      "Estudo da mente humana",
+      "Prática de exercícios físicos",
+      "Estudo dos animais",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é considerado o pai da Psicologia?",
+    respostas: [
+      "Sigmund Freud",
+      "John Watson",
+      "William James",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é o Psicodrama?",
+    respostas: [
+      "Uma técnica de relaxamento",
+      "Um método terapêutico de representação dramática",
+      "Um tipo de medicamento psiquiátrico",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem desenvolveu a técnica do Psicodrama?",
+    respostas: [
+      "Carl Rogers",
+      "Fritz Perls",
+      "Jacob Levy Moreno",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o objetivo principal do Psicodrama?",
+    respostas: [
+      "Estudo da mente inconsciente",
+      "Exploração do passado",
+      "Expressão e resolução de conflitos através da dramatização",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é o conceito de 'transferência' na Psicologia?",
+    respostas: [
+      "Transferência de conhecimento entre terapeuta e paciente",
+      "Transferência de sentimentos do paciente para o terapeuta",
+      "Transferência de medicamentos na terapia",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o principal enfoque da Psicologia Comportamental?",
+    respostas: [
+      "Estudo do inconsciente",
+      "Análise do comportamento observável",
+      "Ênfase na introspecção",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é a 'Terapia Cognitivo-Comportamental'?",
+    respostas: [
+      "Uma abordagem que enfoca pensamentos e comportamentos",
+      "Uma técnica de hipnose",
+      "Uma prática baseada em medicamentos",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que é o 'Efeito Placebo' na Psicologia?",
+    respostas: [
+      "Melhoria real devido à administração de um tratamento inativo",
+      "Efeito colateral de medicamentos",
+      "Ilusão de melhoria",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é associado à teoria da Hierarquia de Necessidades?",
+    respostas: [
+      "Albert Bandura",
+      "B.F. Skinner",
+      "Abraham Maslow",
+    ],
+    correta: 2
+  },
+];
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
