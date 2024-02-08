@@ -1,113 +1,113 @@
 const perguntas = [
   {
-    pergunta: "Qual teórico desenvolveu a teoria da Gestalt na Psicologia?",
+    pergunta: "Qual país sediou a Copa do Mundo de 2014?",
     respostas: [
-      "Sigmund Freud",
-      "B.F. Skinner",
-      "John Watson",
-      "Carl Rogers",
-      "Max Wertheimer",
-    ],
-    correta: 4
-  },
-  {
-    pergunta: "O que é o complexo de Édipo na psicanálise freudiana?",
-    respostas: [
-      "Medo de lugares fechados",
-      "Conflito entre pai e filho",
-      "Atração por objetos inanimados",
-      "Incapacidade de expressar emoções",
-      "Inveja do mesmo sexo",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a principal crítica à teoria behaviorista na Psicologia?",
-    respostas: [
-      "Foco excessivo no inconsciente",
-      "Desconsideração dos processos mentais internos",
-      "Ênfase exagerada na teoria cognitiva",
-      "Ênfase excessiva na abordagem humanista",
-      "Desprezo pela observação do comportamento",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Quem é conhecido como o fundador da psicologia analítica?",
-    respostas: [
-      "Carl Rogers",
-      "Fritz Perls",
-      "Erik Erikson",
-      "Carl Jung",
-      "Abraham Maslow",
-    ],
-    correta: 3
-  },
-  {
-    pergunta: "O que é a 'sombra' na teoria de Carl Jung?",
-    respostas: [
-      "Parte inconsciente da personalidade",
-      "Estágio do desenvolvimento infantil",
-      "Conceito da teoria humanista",
-      "Processo de aprendizagem cognitiva",
-      "Técnica de relaxamento",
+      "Brasil",
+      "Alemanha",
+      "Espanha",
+      "África do Sul",
+      "Rússia",
     ],
     correta: 0
   },
   {
-    pergunta: "Qual termo é usado para descrever a tendência de atribuir características humanas a objetos inanimados?",
+    pergunta: "Quem foi o artilheiro da Copa do Mundo de 2018?",
     respostas: [
-      "Projeção",
-      "Introversão",
-      "Deslocamento",
-      "Antropomorfismo",
-      "Catarse",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Harry Kane",
+      "Neymar",
+      "Kylian Mbappé",
+    ],
+    correta: 4
+  },
+  {
+    pergunta: "Quantos gols Lionel Messi marcou na Copa do Mundo de 2014?",
+    respostas: [
+      "3",
+      "4",
+      "6",
+      "1",
+      "0",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem venceu a Bola de Ouro da FIFA em 2019?",
+    respostas: [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Virgil van Dijk",
+      "Neymar",
+      "Mohamed Salah",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Em qual país ocorreu a Eurocopa de 2016?",
+    respostas: [
+      "Espanha",
+      "Itália",
+      "Alemanha",
+      "Portugal",
+      "França",
+    ],
+    correta: 4
+  },
+  {
+    pergunta: "Quem venceu a Liga dos Campeões da UEFA na temporada 2016/2017?",
+    respostas: [
+      "Real Madrid",
+      "Barcelona",
+      "Liverpool",
+      "Bayern de Munique",
+      "Chelsea",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quantos títulos da Premier League o Manchester City conquistou até 2022?",
+    respostas: [
+      "3",
+      "5",
+      "7",
+      "2",
+      "9",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual seleção venceu a Copa do Mundo Feminina da FIFA em 2019?",
+    respostas: [
+      "Brasil",
+      "Alemanha",
+      "Estados Unidos",
+      "Suécia",
+      "França",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem foi o artilheiro da Copa América de 2015?",
+    respostas: [
+      "Lionel Messi",
+      "Neymar",
+      "Sergio Agüero",
+      "Alexis Sánchez",
+      "James Rodríguez",
     ],
     correta: 3
   },
   {
-    pergunta: "O que é o 'Princípio da Realidade' na teoria psicanalítica de Freud?",
+    pergunta: "Qual clube ganhou a Liga dos Campeões da UEFA na temporada 2020/2021?",
     respostas: [
-      "Tendência de buscar prazer imediato",
-      "Necessidade de enfrentar a realidade e adiar a gratificação",
-      "Repressão de memórias traumáticas",
-      "Busca constante pela autorrealização",
-      "Atração por objetos inanimados",
+      "Manchester City",
+      "Paris Saint-Germain",
+      "Chelsea",
+      "Real Madrid",
+      "Bayern de Munique",
     ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é o principal conceito na teoria do condicionamento operante de B.F. Skinner?",
-    respostas: [
-      "Inconsciente coletivo",
-      "Reforço positivo e negativo",
-      "Sombra",
-      "Introspecção",
-      "Transferência",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que é um 'delírio' na psicopatologia?",
-    respostas: [
-      "Ilusão sensorial",
-      "Crença falsa e irracional",
-      "Estado de euforia",
-      "Transtorno de personalidade",
-      "Fobia social",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Quem desenvolveu a teoria da 'Psicologia Humanista'?",
-    respostas: [
-      "B.F. Skinner",
-      "John Watson",
-      "Carl Jung",
-      "Carl Rogers",
-      "Sigmund Freud",
-    ],
-    correta: 3
+    correta: 2
   },
 ];
 
